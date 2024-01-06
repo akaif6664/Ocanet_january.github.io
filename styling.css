@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    background-size: cover;
+    background: url(images/lg_bg.jpg) center center fixed;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#container1 {
+    scroll-margin-top: 75px;
+    min-height: 224px;
+    min-width: 400px;
+    margin-top: 10px;
+}
+
+#container2 {
+    margin-top: 60px;
+    min-height: 190px;
+    min-width: 400px;
+    color: white;
+    text-align: center;
+    background: rgba(128, 0, 128, 0.7);
+}
+.info{
+    padding-top: 17px;
+}
+#mainpage{
+    scroll-margin-top: 100px;
+}
+#container3{
+    color: white;
+    margin-top: ;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+input {
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.box {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#search_bar {
+    margin: 0 auto;
+    display: block;
+    height: 45px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+
+#search_button {
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width: 567px) {
+    
+
+
+}
